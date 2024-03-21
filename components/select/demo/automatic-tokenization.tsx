@@ -22,6 +22,7 @@ const App: React.FC = () => (
     onChange={handleChange}
     tokenSeparators={[',']}
     options={options}
+   placeholder="Validity"
   />
 );
 
